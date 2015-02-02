@@ -1,11 +1,5 @@
 {
   "name": "plum/plum-json",
-  "repositories": [
-    {
-    "type": "vcs",
-    "url": "/Users/florian/Projects/plumphp/plum"
-    }
-  ],
   "require": {
     "plumphp/plum":       "dev-master",
     "braincrafted/json":  "~0.3"
