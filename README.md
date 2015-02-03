@@ -4,6 +4,11 @@
 > Plum is a data processing pipeline that helps you to write structured, reusable and well tested data processing code.
 > `plum-json` includes readers and writers for JSON strings and files.
 
+[![Build Status](https://travis-ci.org/plumphp/plum-json.svg?branch=master)](https://travis-ci.org/plumphp/plum-json)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/plumphp/plum-json/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/plumphp/plum-json/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/plumphp/plum/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/plumphp/plum-json/?branch=master)
+
+Developed by [Florian Eckerstorfer](https://florian.ec) in Vienna, Europe.
 
 Installation
 ------------
