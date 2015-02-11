@@ -1,7 +1,7 @@
 {
-  "name": "plum/plum-json",
+  "name": "plumphp/plum-json",
   "require": {
-    "plumphp/plum":       "dev-master",
+    "plumphp/plum":       "dev-master@dev",
     "braincrafted/json":  "~0.3"
   },
   "require-dev": {
