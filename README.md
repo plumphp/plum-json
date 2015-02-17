@@ -4,11 +4,12 @@
 > Plum is a data processing pipeline that helps you to write structured, reusable and well tested data processing code.
 > `plum-json` includes readers and writers for JSON strings and files.
 
-[![Build Status](https://travis-ci.org/plumphp/plum-json.svg?branch=master)](https://travis-ci.org/plumphp/plum-json)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/plumphp/plum-json/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/plumphp/plum-json/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/plumphp/plum-json/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/plumphp/plum-json/?branch=master)
+[![Build Status](https://img.shields.io/travis/plumphp/plum-json.svg)](https://travis-ci.org/plumphp/plum-json)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/plumphp/plum-json.svg)](https://scrutinizer-ci.com/g/plumphp/plum-json/?branch=master)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/plumphp/plum-json.svg)](https://scrutinizer-ci.com/g/plumphp/plum-json/?branch=master)
 
 Developed by [Florian Eckerstorfer](https://florian.ec) in Vienna, Europe.
+
 
 Installation
 ------------
@@ -32,11 +33,14 @@ information.
 Change Log
 ----------
 
-*No version released.*
+### Version 0.1 (17 February 2015)
+
+- Initial release
 
 
 License
 -------
 
 The MIT license applies to plumphp/plum- json. For the full copyright and license information,
-please view the LICENSE file distributed with this source code.
+please view the [LICENSE](https://github.com/plumphp/plum-json/blob/master/LICENSE) file distributed with this source
+code.
