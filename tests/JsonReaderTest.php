@@ -45,4 +45,22 @@ class JsonReaderTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals(1, $reader->count());
     }
+
+    /**
+     * @test
+     * @covers Plum\PlumJson\JsonReader::accepts()
+     */
+    public function acceptsReturnsTrueIfInputIsArray()
+    {
+        $this->assertTrue(JsonReader::accepts(['foo']));
+    }
+
+    /**
+     * @test
+     * @covers Plum\PlumJson\JsonReader::accepts()
+     */
+    public function acceptsReturnsFalseIfInputIsNotArray()
+    {
+        $this->assertFalse(JsonReader::accepts('foo'));
+    }
 }

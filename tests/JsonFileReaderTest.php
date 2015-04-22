@@ -55,4 +55,23 @@ class JsonFileReaderTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals(1, $reader->count());
     }
+
+    /**
+     * @test
+     * @covers Plum\PlumJson\JsonFileReader::accepts()
+     */
+    public function acceptsReturnsTrueIfInputIsJsonFile()
+    {
+        $this->assertTrue(JsonFileReader::accepts('foo.json'));
+    }
+
+    /**
+     * @test
+     * @covers Plum\PlumJson\JsonFileReader::accepts()
+     */
+    public function acceptsReturnsFalseIfInputIsNotJsonFile()
+    {
+        $this->assertFalse(JsonFileReader::accepts('foo.csv'));
+        $this->assertFalse(JsonFileReader::accepts([]));
+    }
 }

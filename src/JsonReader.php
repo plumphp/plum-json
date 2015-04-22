@@ -11,6 +11,7 @@
 
 namespace Plum\PlumJson;
 
+use ArrayIterator;
 use Braincrafted\Json\Json;
 use Plum\Plum\Reader\ReaderInterface;
 
@@ -38,11 +39,11 @@ class JsonReader implements ReaderInterface
     }
 
     /**
-     * @return \ArrayIterator
+     * @return ArrayIterator
      */
     public function getIterator()
     {
-        return new \ArrayIterator($this->getJson());
+        return new ArrayIterator($this->getJson());
     }
 
     /**
@@ -65,5 +66,15 @@ class JsonReader implements ReaderInterface
         }
 
         return $this->data;
+    }
+
+    /**
+     * @param mixed $input
+     *
+     * @return bool
+     */
+    public static function accepts($input)
+    {
+        return is_array($input);
     }
 }
