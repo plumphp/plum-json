@@ -33,6 +33,10 @@ information.
 Change Log
 ----------
 
+### Version 0.2 (22 April 2015)
+
+- Add support for ReaderFactory
+
 ### Version 0.1 (17 February 2015)
 
 - Initial release
