@@ -21,7 +21,7 @@ class JsonEncodeConverterTest extends PHPUnit_Framework_TestCase
     public function convertEncodesArrayToJson()
     {
         $converter = new JsonEncodeConverter();
-        
+
         $this->assertSame('{"foo":"bar"}', $converter->convert(['foo' => 'bar']));
     }
 }
