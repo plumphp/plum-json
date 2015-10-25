@@ -14,9 +14,8 @@ namespace Plum\PlumJson;
 use Braincrafted\Json\Json;
 
 /**
- * JsonWriter
+ * JsonWriter.
  *
- * @package   Plum\PlumJson
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2015 Florian Eckerstorfer
  */
@@ -36,8 +35,6 @@ class JsonWriter
      * Write the given item.
      *
      * @param mixed $item
-     *
-     * @return void
      */
     public function writeItem($item)
     {
@@ -46,8 +43,6 @@ class JsonWriter
 
     /**
      * Prepare the writer.
-     *
-     * @return void
      */
     public function prepare()
     {
@@ -55,8 +50,6 @@ class JsonWriter
 
     /**
      * Finish the writer.
-     *
-     * @return void
      */
     public function finish()
     {

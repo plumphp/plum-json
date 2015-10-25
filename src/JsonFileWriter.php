@@ -15,9 +15,8 @@ use Braincrafted\Json\Json;
 use Plum\Plum\Writer\WriterInterface;
 
 /**
- * JsonWriter
+ * JsonWriter.
  *
- * @package   Plum\PlumJson
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2015 Florian Eckerstorfer
  */
@@ -41,8 +40,6 @@ class JsonFileWriter implements WriterInterface
      * Write the given item.
      *
      * @param mixed $item
-     *
-     * @return void
      */
     public function writeItem($item)
     {
@@ -51,8 +48,6 @@ class JsonFileWriter implements WriterInterface
 
     /**
      * Prepare the writer.
-     *
-     * @return void
      */
     public function prepare()
     {
@@ -60,8 +55,6 @@ class JsonFileWriter implements WriterInterface
 
     /**
      * Finish the writer.
-     *
-     * @return void
      */
     public function finish()
     {

@@ -6,9 +6,8 @@ use Braincrafted\Json\Json;
 use Plum\Plum\Converter\ConverterInterface;
 
 /**
- * JsonEncodeConverter
+ * JsonEncodeConverter.
  *
- * @package   Plum\PlumJson
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2015 Florian Eckerstorfer
  */
