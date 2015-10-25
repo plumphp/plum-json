@@ -14,9 +14,8 @@ namespace Plum\PlumJson;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * JsonReaderTest
+ * JsonReaderTest.
  *
- * @package   Plum\PlumJson
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2015 Florian Eckerstorfer
  * @group     unit
@@ -26,7 +25,7 @@ class JsonFileReaderTest extends \PHPUnit_Framework_TestCase
     public function setUp()
     {
         vfsStream::setup('fixtures', null, [
-            'foo.json' => '[{"foo": "bar"}]'
+            'foo.json' => '[{"foo": "bar"}]',
         ]);
     }
 

@@ -14,9 +14,8 @@ namespace Plum\PlumJson;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * JsonWriterTest
+ * JsonWriterTest.
  *
- * @package   Plum\PlumJson
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2015 Florian Eckerstorfer
  * @group     unit

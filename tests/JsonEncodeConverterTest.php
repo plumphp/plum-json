@@ -5,9 +5,8 @@ namespace Plum\PlumJson;
 use PHPUnit_Framework_TestCase;
 
 /**
- * JsonEncodeConverterTest
+ * JsonEncodeConverterTest.
  *
- * @package   Plum\PlumJson
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2015 Florian Eckerstorfer
  * @group     unit

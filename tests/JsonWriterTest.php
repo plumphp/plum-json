@@ -12,9 +12,8 @@
 namespace Plum\PlumJson;
 
 /**
- * JsonWriterTest
+ * JsonWriterTest.
  *
- * @package   Plum\PlumJson
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2015 Florian Eckerstorfer
  */

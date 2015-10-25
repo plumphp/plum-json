@@ -16,9 +16,8 @@ use Braincrafted\Json\Json;
 use Plum\Plum\Reader\ReaderInterface;
 
 /**
- * JsonReader
+ * JsonReader.
  *
- * @package   Plum\PlumJson
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2015 Florian Eckerstorfer
  */
