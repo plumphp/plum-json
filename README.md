@@ -6,8 +6,10 @@
 for PHP.
 
 [![Build Status](https://img.shields.io/travis/plumphp/plum-json.svg?style=flat)](https://travis-ci.org/plumphp/plum-json)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/xbe3eo6dqmw2lqxa?svg=true)](https://ci.appveyor.com/project/florianeckerstorfer/plum-json)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/plumphp/plum-json.svg?style=flat)](https://scrutinizer-ci.com/g/plumphp/plum-json/?branch=master)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/plumphp/plum-json.svg?style=flat)](https://scrutinizer-ci.com/g/plumphp/plum-json/?branch=master)
+[![StyleCI](https://styleci.io/repos/30204626/shield)](https://styleci.io/repos/30204626)
 
 Developed by [Florian Eckerstorfer](https://florian.ec) in Vienna, Europe.
 
