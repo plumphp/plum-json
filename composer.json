@@ -1,6 +1,10 @@
 {
-  "name": "plumphp/plum-json",
-  "require": {
+  "name":        "plumphp/plum-json",
+  "description": "",
+  "keywords":    ["plum", "json", "import", "export"],
+  "license":     "MIT",
+  "require":     {
+    "php":                "=>5.5",
     "plumphp/plum":       "~0.2",
     "braincrafted/json":  "~0.3"
   },
@@ -8,9 +12,7 @@
     "phpunit/phpunit":    "~4.3",
     "mikey179/vfsStream": "~1.4"
   },
-  "autoload": {
-    "psr-4": {
-      "Plum\\PlumJson\\": "src"
-    }
+  "autoload":    {
+    "psr-4": {"Plum\\PlumJson\\": "src"}
   }
 }
